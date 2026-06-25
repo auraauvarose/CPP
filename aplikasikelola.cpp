@@ -292,7 +292,7 @@ void addNewItem() {
     cin >> barang.stok;
     
     cout << "Stok Minimum: ";
-    cin >> barang.stok_minimum;
+    cin >> barang.stok_minimum; 
     
     cout << "Harga (Rp): ";
     cin >> barang.harga;
