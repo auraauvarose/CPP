@@ -1,7 +1,6 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -9,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "/run/media/auraauvarose/01DB71EDB8D3FCD0/FOLDER DISK D/Aura Auvarose/Project Belajar/learn_c++/SEMESTER_3",
+      "program": "/run/media/auraauvarose/01DB71EDB8D3FCD0/FOLDER DISK D/Aura Auvarose/Project Belajar/learn_c++/SEMESTER_3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

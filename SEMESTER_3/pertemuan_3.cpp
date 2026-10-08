@@ -1,24 +1,22 @@
 #include <iostream>
 using namespace std;
 
-struct mahasiswa {
-    char nim [15];
-    char nama [40];
-    char alamat [60];
-    float ipk;
-};
-int main(){
-    mahasiswa siswa;
 
-    cout << "Nim   :"; cin.getline(siswa.nim,15);
-    cout << "Nama   :"; cin.getline(siswa.nama,40);
-    cout << "Alamat  :"; cin.getline(siswa.alamat,60);
-    cout << "Nilai IPK :"; cin >> siswa.ipk;
 
-    cout << endl;
+int main() {
 
-    cout << "Nim Anda  :" << siswa.nim << endl;
-    cout << "Nama Anda :" << siswa.nama << endl;
-    cout << "Alamat Anda :" << siswa.alamat << endl;
-    cout << "Nilai IPK Anda :" << siswa.ipk << endl;
+    int jam, menit, detik;
+    int total_detik;
+    int biaya;
+
+    cout << "jam    :"; cin >> jam;
+    cout << "menit  :"; cin >> menit;
+    cout << "detik  :"; cin >> detik;
+
+    total_detik = jam * 3600 + menit * 60 + menit;
+    biaya = (total_detik / 30) * 130;
+
+    cout << "total detik  :    " << total_detik << endl;
+    cout << "biaya        : rp." <<  biaya << endl;
 }
+
