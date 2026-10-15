@@ -10,6 +10,7 @@ int main() {
     cout << "nilai kuis : "; cin >> kuis;
     cout << "nilai mid :"; cin >> mid;
     cout << "nilai uas :"; cin >> uas;
+    cout << "nilai mid yang gagal dan mengulang :";
 
     nilai_akhir = (0.10 * tugas) + (0.20 * kuis) + (0.30 * mid) + (0.40 * uas);
 
@@ -26,7 +27,8 @@ int main() {
     }
 
     cout << "Nilai Akhir: " << nilai_akhir << endl;  
-    cout << "Nilai Huruf: " << huruf << endl;  
+    cout << "Nilai Huruf: " << huruf << endl;
+    cout << "Nilai akhir: " << huruf << endl;
 
     return 0; 
 }
